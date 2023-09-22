@@ -1,0 +1,284 @@
+.single-blog{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+   
+}
+
+.single-blog-container {
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+
+
+.btn-edit-img {
+    font-size: 45px;
+    color: rgb(205, 200, 200);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.btn-edit-img:hover {
+   color: red;
+}
+
+
+.single-blog-img {
+    position: relative;
+}
+
+.single-blog-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.single-blog-authur {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(252, 74, 80);
+}
+
+
+.single-blog-authur span {
+    color: rgb(241, 194, 105);
+
+}
+
+.blog-setting-menu-visiter {
+    display: none;
+}
+
+
+.blog-setting-menu-owner {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+
+}
+
+.blog-setting-menu-owner:hover .setting-dropdown{
+    display: block;
+}
+
+
+
+.dots-menu {
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+
+
+.setting-dropdown {
+    position: absolute;
+    top: 30px;
+    width: 140px;
+    height: 100px;
+    background-color: rgb(179, 171, 171);
+    display: none;
+
+
+}
+
+.setting-dropdown ul {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+}
+
+.setting-dropdown li {
+    cursor: pointer;
+    padding: 12px;
+  
+}
+
+
+
+.setting-dropdown li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.setting-dropdown li a span {
+    margin-left: 10px;
+
+}
+
+.setting-dropdown li:hover {
+
+   background-color: rgb(168, 168, 242);
+  
+}
+
+
+.btn-edit-blog  {
+    width: 100px;
+    background-color: teal;
+    padding: 12px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    transition: .3s ease-in-out;
+
+    font-weight: bold;
+   
+}
+
+
+.btn-edit-blog:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+/*  Contents  ++++++++++ readonly */
+
+
+
+.single-blog-title-readonly .single-edit-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.single-blog-title-readonly .single-edit-title-img .btn-edit-img  {
+    display: none;
+    
+}
+
+
+.single-blog-title-readonly .single-edit-title-img input {
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(90, 249, 90);
+    
+ 
+}
+
+.single-blog-title-readonly .single-edit-title-img input {
+    pointer-events:none;
+    color:#6ca91ccb;
+    
+}
+
+.single-blog-description-readonly .btn-edit-blog {
+    opacity: 0;
+}
+
+
+
+
+
+
+/* Text area readonly */
+
+.single-blog-description-readonly {
+    width: 100%;
+    height: auto;
+}
+
+.single-blog-description-readonly textarea {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+
+    pointer-events:none;
+    color:#AAA;
+}
+
+/* .single-blog-description textarea::first-letter {
+    font-size: 30px;
+} */
+
+
+/* Contents  +++++++++++++++++++++++++++ edit */
+
+
+
+
+
+
+.single-blog-title-edit .single-edit-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.single-blog-title-edit .single-edit-title-img input {
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    outline: none;
+   
+    
+ 
+}
+
+
+/* .single-blog-title-edit .single-blog-authur {
+    display: none;
+}
+ */
+
+/* Text area readonly */
+
+.single-blog-description-edit {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.single-blog-description-edit textarea {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.single-blog-description-edit .btn-edit-blog {
+    opacity: 1;
+    left: 1200px;
+    bottom: 400px;
+}
+

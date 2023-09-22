@@ -1,0 +1,96 @@
+.new-blog{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+   
+}
+
+.new-blog-container {
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+
+
+/* Image and btn add blog */
+
+.new-blog-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.new-blog-btn {
+    position: relative;
+}
+
+
+.btn-add-blog  {
+    background-color: teal;
+    padding: 12px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    transition: .3s ease-in-out;
+    left: 1190px;
+    bottom: -60px;
+    font-weight: bold;
+   
+}
+
+
+.btn-add-blog:hover {
+    background-color: red;
+}
+
+
+
+/* add title and add btn */
+
+.new-blog-title-addimg {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.btn-add-img {
+    font-size: 45px;
+    color: rgb(205, 200, 200);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.btn-add-img:hover {
+    color: red;
+}
+
+.add-title {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+ 
+}
+
+
+
+/* Text area */
+
+.new-blog-description {
+    width: 100%;
+    height: auto;
+}
+
+.new-blog-description textarea {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}

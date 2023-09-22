@@ -1,0 +1,41 @@
+.login-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+
+
+
+
+.login-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1545529788-215610198efc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    opacity: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -2;
+}
+
+.login-bg-overy {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(111, 45, 45, 0.5);
+   position: absolute;
+   z-index: -1;
+    
+}
+
+.main-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

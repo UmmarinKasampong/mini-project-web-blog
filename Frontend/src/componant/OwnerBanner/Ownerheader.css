@@ -1,0 +1,55 @@
+.owner-banner {
+    margin-top: 100px;
+    width: 100%;
+    height: 550px;
+
+}
+
+
+
+/* Title Banner */
+
+.owner-banner-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+
+.Owner-img {
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid rgb(252, 251, 250);
+    object-fit: cover;
+    z-index: 2;
+}
+
+
+.owner-title-b {
+    font-weight: bold;
+    letter-spacing: 10px;
+    top: 290px;
+    font-size: 100px;
+    position: absolute;
+    padding: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgba(240, 233, 20 , 0.8);
+    z-index: 1;
+}
+
+
+
+/* Banner-Img */
+
+.owner-banner-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}

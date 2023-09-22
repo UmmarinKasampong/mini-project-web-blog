@@ -1,0 +1,10 @@
+.Owner-contents {
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.side-bar {
+    width: 350px;
+    height: auto;
+}
